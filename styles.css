@@ -6,7 +6,9 @@
 header{
 	text-align: center;
 }
-
+section{
+	padding-top: var(--banner-size);
+}
 #banner{
 	position: fixed;
 	background: maroon;
@@ -14,4 +16,5 @@ header{
 	top: 0;
 	left: 0;
 	display: flex;
+	min-height: var(--banner-size);
 }
