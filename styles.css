@@ -1,5 +1,12 @@
-h1{
+:root{
+	font-size: 100%;
+	--banner-size: 11em;
+}
+
+header{
 	text-align: center;
-	text-transform: uppercase;
-	color: coral;
+}
+
+#banner{
+	position: fixed;
 }
