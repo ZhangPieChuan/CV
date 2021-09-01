@@ -9,4 +9,6 @@ header{
 
 #banner{
 	position: fixed;
+	background: maroon;
+	width: 100%;
 }
