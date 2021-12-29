@@ -7,11 +7,8 @@
 html{
 	box-sizing: border-box;
 }
-img{
-	width:300px;
-	height:200px;
-	position: relative;
-	padding-top: 2em;
+#image{
+	float: left;
 }
 
 /*modify the resume title"boshen Zhang"
@@ -31,15 +28,31 @@ h2{
 #image{
 	float: right;
 }
+nav {
+  width: 100%;
+  margin: 20px 0; }
+nav ul {
+  list-style: none;
+  overflow: hidden; }
+nav ul li {
+  float: left;
+  width: 20%; }
+nav ul li a {
+  text-align: center;
+  padding: 8px 0;
+  display: block;
+  width: 100%;
+  background:  #FFA500; /* Old browsers */
+  }
 header {
   position: fixed;
   top: 0;
   left: 0;
   text-align: center;
-  color: white;
+  	color: #FFA500;
   width: 100%;
-  padding: 1rem;
-  background: #1976D2;
+/*  padding: 1rem;
+*/  background: #800000;
     min-height: var(--banner-size); 
      line-height: 1;
 
