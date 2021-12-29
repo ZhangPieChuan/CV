@@ -1,0 +1,89 @@
+/*root attribute that defines all the font and bannersize*/
+:root{
+	font-size: 100%;
+	--banner-size: 5em;
+	  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+	box-sizing: border-box;
+}
+img{
+	width:300px;
+	height:200px;
+	position: relative;
+	padding-top: 2em;
+}
+
+/*modify the resume title"boshen Zhang"
+*/
+h1{
+	  font-family: "Lucida Console", "Courier New", monospace;
+	  font-size: 250%;
+}
+h2{
+  font-size: 200%;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+.sec{
+	  scroll-margin-top: 10em;
+}
+#image{
+	float: right;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  background: #1976D2;
+    min-height: var(--banner-size); 
+     line-height: 1;
+
+
+}
+/*header + section{
+	padding-top: var(--banner-size);
+}
+*/
+body{
+
+  line-height: 1.4;
+  margin: 5em auto;
+  padding-top: 8rem;
+  margin-left: 4em;
+    margin-right: 4em;
+  background-color: #FFFEE9;
+ }
+
+/*a fixed banner that display disregard the scrolling
+*//*#banner{
+	position: fixed;
+	background-color: coral;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	min-height: var(--banner-size);
+}*/
+/*make two column for programming skills and computer skills
+*/
+.skills-wrapper{
+	border: 1px dashed white;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	background-color: #ADD8E6;
+	font-family: "Lucida Console", "Courier New", monospace;
+	flex:  1 ;
+	padding:  16px;
+	}
+
+
+.table-container{
+	    display: flex; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
